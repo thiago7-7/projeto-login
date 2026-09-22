@@ -7,3 +7,141 @@
     --cor003:#001462;
 }
 
+
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+
+
+    html{
+        width: 100vw;
+    }
+
+    body {
+        background-image:linear-gradient( to bottom, #001462, #D1E7F1) ;
+        background-attachment: fixed;
+       
+        
+    }
+
+    
+    
+ 
+
+    section {
+        background-color: white;
+        border-radius: 15px;
+       ;
+        position: relative;
+        padding: 10px;
+    
+    }
+
+    section#login{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+    }
+
+    div#imagem {
+        background: url('../imagens/pexels-punttim-5600669.jpg') fixed no-repeat right center ;
+        background-size: cover;
+        height: 20vh;
+        width: 50vw;
+        margin: -10px;
+        border-radius: 0px 15px 15px 0px;
+        
+
+    }
+
+    div#formulario{
+      
+
+    }
+
+ p#azul{
+        background-color:#6699FF;
+        border-radius: 10px;
+        padding: 0px;
+        width: 33vw;
+        height: 40px;
+        position: relative;
+  
+
+    }
+    input{
+    position: absolute;
+    top: 49%;
+    left: 53%;
+     transform: translate(-50%, -50%);
+     width: 30vw;
+     height: 30px;
+     margin: auto;
+     border-radius: 8px;
+     background-color: white;
+ 
+    
+    
+    }
+
+    i{
+        color: var(--cor001);
+        padding-top: 5px ;
+   
+      
+    }
+
+    #botao{
+        position: relative;
+        background-color:#6699ffe1;
+        border-radius: 10px;
+        padding: 0px;
+        width: 33vw;
+        height: 37px;
+        color: white;
+        font-weight: bolder;
+
+        top:33%;
+        left: 21%;
+
+        transform: translate(-31%, -31%);
+       
+    }
+    #botao:hover {
+        background-color: #3e7dfc;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+
+   
+
+    #botao2{
+        position: relative;
+        border: solid 1px  #6699FF;
+        border-radius: 10px;
+        padding: 0px;
+        width: 33vw;
+        height: 37px;
+        color: white;
+        font-weight: bolder;
+        top:33%;
+        left: 21%;
+        transform: translate(-31%, -67%);
+        color: #6699FF;
+
+    }
+
+    #botao2:hover {
+        background-color: #6699ff60;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+
+
+
+
