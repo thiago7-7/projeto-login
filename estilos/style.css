@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+    
+
+/*MOBILE FIRST*/
+
+
 :root {
 
     --cor001:#dcdcdc;
@@ -31,7 +36,7 @@
         border-radius: 15px;
     
         position: relative;
-        padding: 10px;
+        padding: 5px;
     
     }
 
@@ -49,15 +54,15 @@
 
   
   section > div#imagem {
-        background: url('../imagens/pexels-punttim-5600669.jpg') fixed no-repeat right center ;
+        background: url('../imagens/pexels-punttim-5600669.jpg') fixed no-repeat top left;
         background-size: cover;
         height:200px ;
      
-        margin: -10px;
+        margin: -5px;
        
   }
 
-  section > div#formulario {
+  section#login > div#formulario {
     display: block;
     padding: 10px;
   }
@@ -75,6 +80,10 @@
   h1{
     margin: 10px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.849);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.616);
   }
 
 
@@ -124,7 +133,6 @@
         color: white;
         font-weight: bolder;
         border: solid 2px #6699ffbe;
-        display: inline-block;
         top:33%;
         left: 19%;
         margin: 12px;
