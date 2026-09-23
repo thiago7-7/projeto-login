@@ -1,31 +1,19 @@
 @charset "UTF-8";
 
-:root {
-
-    --cor001:#dcdcdc;
-    --cor002:#D1E7F1;
-    --cor003:#001462;
-}
+/*MOBILE FIRST*/
 
 
-    *{
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 0px;
-        margin: 0px;
-        box-sizing: border-box;
-       
-    }
+@media screen and (min-width:668px) and (max-width:992px ) {
 
-
-    html, body {
-        background-color: #001462;
+  
+       html, body {
+        background-image:linear-gradient( to bottom, #001462, #D1E7F1) ;
+        background-attachment: fixed;
         height: 100vh;
         width: 100vw;
     }
 
 
-    
-    
     section {
         background-color: white;
         border-radius: 15px;
@@ -36,68 +24,46 @@
     }
 
     section#login{
-        width: 250px;
-        height: 500px;
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        border-radius: 20px;
-        overflow: hidden ;
-        box-shadow:0px 0px 10px rgba(0, 0, 0, 0.623);
+        border-radius: 15px;
     }
 
-  
-  section > div#imagem {
+    div#imagem {
         background: url('../imagens/pexels-punttim-5600669.jpg') fixed no-repeat right center ;
         background-size: cover;
-        height:200px ;
-     
+        height: 20vh;
+        width: 50vw;
         margin: -10px;
-       
-  }
+        border-radius: 0px 15px 15px 0px;
+        
 
-  section > div#formulario {
-    display: block;
-    padding: 10px;
-  }
+    }
 
-  section > div#formulario > p {
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0px;
-    padding: 2px;
-    line-height: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Verdana, Geneva, Tahoma, sans-serif;
+    div#formulario{
+      
 
-  }
-
-  h1{
-    margin: 10px;
-    text-align: center;
-  }
-
-
+    }
 
  p#azul{
-  
         background-color:#6699FF;
         border-radius: 10px;
         padding: 0px;
-        width: 200px;
+        width: 31vw;
         height: 40px;
         position: relative;
-        margin: 3px;
   
 
     }
     input{
         position: absolute;
-        top: 49%;
-        left: 53%;
-        transform: translate(-45%, -50%);
-        width: 167px;
-        height: 34px;
+        top: 48%;
+        left: 60%;
+        transform: translate(-53%, -50%);
+        width: 24vw;
+        height: 30px;
         
         border-radius: 8px;
         background-color: white;
@@ -119,7 +85,7 @@
         background-color:#6699ffe1;
         border-radius: 10px;
         padding: 0px;
-        width: 200px;
+        width: 31vw;
         height: 37px;
         color: white;
         font-weight: bolder;
@@ -127,8 +93,8 @@
         display: inline-block;
         top:33%;
         left: 19%;
-        margin: 12px;
-        transform: translate(-25%, -31%);
+
+        transform: translate(-28%, -31%);
        
     }
     #botao:hover {
@@ -145,15 +111,14 @@
         border: solid 1px  #6699FF;
         border-radius: 10px;
         padding: 0px;
-        width: 200px;
+        width: 31vw;
         height: 37px;
         color: white;
         font-weight: bolder;
         top:33%;
         left: 19%;
-        transform: translate(-21%, -67%);
+        transform: translate(-28%, -67%);
         color: #6699FF;
-        margin: 4px;
 
     }
 
@@ -167,3 +132,4 @@
 
 
 
+}
