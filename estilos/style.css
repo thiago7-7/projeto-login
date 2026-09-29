@@ -19,13 +19,14 @@
         margin: 0px;
         box-sizing: border-box;
        
+       
     }
 
 
-    html, body {
+    body, html {
         background-color: #001462;
-        height: 100vh;
         width: 100vw;
+        height: 100vh;
     }
 
         main{
@@ -71,8 +72,6 @@
   section > div#formulario > p {
     font-size: 14px;
     font-weight: normal;
-    margin: 0px;
-    padding: 2px;
     line-height: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Verdana, Geneva, Tahoma, sans-serif;
 
