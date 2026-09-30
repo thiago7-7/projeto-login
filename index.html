@@ -28,33 +28,29 @@
             
 
               <form action="login.php" method="post">
-                  <p id="azul">
-                   
-                      <i class="material-symbols-outlined">person</i>
-                    <label for="iemail"></label>    
-                    <input type="email" name="email" id="iemail" placeholder="digite seu e-mail" maxlength="30" minlength="10" required>
+                 
+                   <div id="campo">
+                        
+                         <i class="material-symbols-outlined">person</i>
+                        <input type="email" name="login" id="ilogin" placeholder="digite seu e-mail" maxlength="30" minlength="10" required autocomplete="email">
+                        <label for="login">Login</label>
+                   </div>
 
-                  </p>
+              
                  
                   
-                  <p id="azul">
-                   <i class="material-symbols-outlined">vpn_key</i>
-                   
-                    <label for="isen"></label>
-                    <input type="password" name="senha" id="isen" placeholder="digite sua senha" required minlength="8" maxlength="20" autocomplete="current-password">
-                </p>
                 
-                <p >
-                    <input type="submit" value="Entrar" id="botao">
+                   <div id="campo">
+                      
+                        <i class="material-symbols-outlined">vpn_key</i>
+                        <input type="password" name="senha" id="isenha" placeholder="digite sua senha" required minlength="8" maxlength="20" autocomplete="current-password">
+                         <label for="isen">Senha</label>
+                   </div>
+             
+                    <input type="submit" value="Entrar">
                  
-                </p>
-
-                <p>
-                    <input type="submit" value="Esqueci a senha" id="botao2">
-                </p>
-         
-            
-                  
+                    <a href="esqueci.html" class="botao">Esqueci a senha <i class="material-symbols-outlined">mail</i></a>
+                                   
               </form>
            
             </div>

@@ -9,7 +9,7 @@
   
 
 
- body {
+ body, html {
         background-image: linear-gradient(to bottom, #001462, #D1E7F1);
         background-attachment: fixed;
         
@@ -20,9 +20,10 @@
 
 
     section#login{
-        width: 80vw;
+        width: 90vw;
+        height: 35vh;
        
-       
+        
     
     }
 
@@ -30,7 +31,6 @@
   section#login > div#imagem {
         width: 30%;
         height: 100%;
-    
         float: left;
 
   }
@@ -38,7 +38,7 @@
   section#login > div#formulario {
     padding: 10px;
     width: 70%;
-    float: left;
+    float: right;
   }
 
   
@@ -54,17 +54,11 @@
     }
 
 
-    input{
-        position: absolute;
-        top: 49%;
-        left: 50%;
-        transform: translate(-45%, -50%);
-        width: 48vw;
-        height: 34px;
-        border-radius: 8px;
-        background-color: white;
-        border: solid 2px white;
  
+
+    section > div#formulario > p {
+          font-size: 0.9em;
+        font-weight: normal;
     }
 }
 
@@ -80,13 +74,19 @@
         width: 950px;
     }
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
+     
     }
 
     section#login > div#formulario {
-        float: right ;
+        float: left ;
         width: 50%;
+    }
+
+    section > div#formulario > p {
+        font-size: 1em;
+        font-weight: normal;
     }
 }
