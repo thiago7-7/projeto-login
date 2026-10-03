@@ -2,95 +2,68 @@
 
 
 
-
-@media screen and (min-width:600px) and (max-width:768) {
-    body, html {
-        background-color: #001462;
-    }
-}
-
 @media screen and (min-width:768px) and (max-width:992px ) {
 
   
-  
-
- body {
+body {
         background-image: linear-gradient(to bottom, #001462, #D1E7F1);
         background-attachment: fixed;
         
     }
 
 
-    
 
-
-    section#login{
+section#login {
         width: 90vw;
-      height: 50vh;
-       
-        
-    
+        height: 280px;
     }
-
-  
-  section#login > div#imagem {
+    
+section#login > div#imagem {
         width: 30%;
         height: 100%;
         float: left;
 
   }
 
-  section#login > div#formulario {
-    padding: 10px;
-    width: 70%;
-    float: right;
+section#login > div#formulario {
+        padding: 10px;
+        width: 70%;
+        float: right;
   }
 
-  
-   p#azul{
-  
-        background-color:#6699FF;
-        border-radius: 10px;
-        padding: 0px;
-        width: 53vw;
-        height: 40px;
-        position:relative;
-      
-    }
-
-
- 
-
-    section > div#formulario > p {
-          font-size: 0.9em;
+section > div#formulario > p {
+        font-size: 0.9em;
         font-weight: normal;
     }
 }
 
+
 @media screen and (min-width:992px) {
 
-  body {
+body {
         background-image: linear-gradient(to bottom, #001462, #D1E7F1);
         background-attachment: fixed;
         
     }
 
-    section#login {
+section#login {
         width: 950px;
+        height: 300px;
     }
-    section#login > div#imagem {
+     
+section#login > div#imagem {
         float: right;
         width: 50%;
         height: 100%;
      
     }
 
-    section#login > div#formulario {
+section#login > div#formulario {
         float: left ;
         width: 50%;
     }
 
-    section > div#formulario > p {
+section > div#formulario > p {
         font-size: 1em;
         font-weight: normal;
     }
