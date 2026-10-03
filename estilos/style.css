@@ -40,12 +40,13 @@ section#login{
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%);
         border-radius: 20px;
         overflow: hidden;
         box-shadow:0px 0px 10px rgba(0, 0, 0, 0.623); 
+        
         transition: width .3s, heigth .3s;
         transition-timing-function: ease;
+        transform: translate(-50%, -50%);
     }
 
   
@@ -105,10 +106,10 @@ div#campo > input {
         background-color:#bccff5bb ;
         height: 100%;
         width: calc(100% - 45px);
-        transform: translateY(-15px);
         border: 0px;
         border-radius:8px;
         padding: 4px;
+        transform: translateY(-15px);
 }
 
 div#campo > input:focus-within {
