@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
 
+@media screen and (min-width:600px) and (max-width:768px) {
+    body, html {
+        background-color: #001462;
+        width: 100vw;
+        height: 100vh;
+        
+      
+    }
+}
+
 
 @media screen and (min-width:768px) and (max-width:992px ) {
 
